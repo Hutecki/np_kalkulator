@@ -1,4 +1,4 @@
-#inlcude "number.h"
+#include "number.h"
 
 Number dzielenie(Number a, Numer b) {
  if (b<0)
