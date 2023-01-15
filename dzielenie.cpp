@@ -1,7 +1,8 @@
+#inlcude "number.h"
 
-float dzielenie(float a, float b) {
-  float wynik = 0;
-  wynik = a / b;
-
-  return wynik;
+Number dzielenie(Number a, Numer b) {
+ if (b<0)
+  return 0;
+ else
+  return a/b;
 }
